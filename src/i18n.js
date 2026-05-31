@@ -13,10 +13,10 @@ export const translations = {
       secondary: "Get In Touch",
     },
     about: {
-      eyebrow: "THE CRAFTSMAN",
-      title: "Bridging Imagination and Implementation",
-      p1: "With over half a decade of experience in the digital space, I treat every project as a piece of digital craftsmanship. My philosophy is simple: complexity should be hidden behind an intuitive, elegant facade.",
-      p2: "I don't just write code; I architect experiences. From high-performance Laravel backends to fluid, pixel-perfect frontend interactions, I ensure every touchpoint feels deliberate.",
+      eyebrow: "FULLSTACK WEB DEVELOPER",
+      title: "Building Clean, Fast & Modern Web Experiences",
+      p1: "I'm a fullstack web developer with 2.5+ years of experience crafting websites and web applications from the ground up. I specialize in Laravel, React, and vanilla JavaScript — writing code that's clean, scalable, and built to last.",
+      p2: "From company profiles to admin dashboards and web apps — I handle both frontend and backend so you get a complete solution without the hassle of coordinating multiple developers.",
     },
     projects: {
       eyebrow: "SELECTED WORKS",
@@ -50,10 +50,10 @@ export const translations = {
       secondary: "Hubungi Saya",
     },
     about: {
-      eyebrow: "SANG PERAKIT",
-      title: "Menghubungkan Imajinasi dan Implementasi",
-      p1: "Dengan pengalaman lebih dari setengah dekade di dunia digital, saya menganggap setiap proyek sebagai karya craftsmanship digital. Filosofinya sederhana: kompleksitas harus disembunyikan di balik tampilan yang intuitif dan elegan.",
-      p2: "Saya tidak hanya menulis kode; saya merancang pengalaman. Dari backend Laravel yang cepat hingga interaksi frontend yang halus dan presisi piksel, saya memastikan setiap sentuhan terasa disengaja.",
+      eyebrow: "FULLSTACK WEB DEVELOPER",
+      title: "Membangun Website yang Bersih, Cepat & Modern",
+      p1: "Saya seorang fullstack web developer dengan pengalaman 2,5+ tahun membangun website dan aplikasi web dari nol. Spesialis Laravel, React, dan JavaScript — dengan kode yang bersih, scalable, dan tahan lama.",
+      p2: "Dari company profile, dashboard admin, hingga web app — saya handle frontend dan backend sekaligus, jadi kamu dapat solusi lengkap tanpa perlu koordinasi banyak developer.",
     },
     projects: {
       eyebrow: "PROYEK TERPILIH",
