@@ -78,7 +78,7 @@ export default function About() {
               }}
             >
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBh2d6FWSoFBMqA5K3G3XkdODqcAvPWnLBYbv1711nbQrCAFAUOHuT0FNkC9OAqdYY2EWxbPCl2Rpk_3t5MVpFyNxawvyDbbLkX4QFPKo1L7rLL88tX0XNAQFdfamB2zdNPgzYF5T-qlpo54Hz6GtJ918bDdHQyuyjRfovQd1-2Gh2TIlPuH9shfHPkVI9bguxMsrRCyzrXp0t4zrF70e_5wpomXsJuWqVHA2XKOl24HHqc18NYgAAapX0tNUFOAQpCAtkSWM3gM1R1"
+                src={require("../fotoku.jpeg")}
                 alt="Designer Profile"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
