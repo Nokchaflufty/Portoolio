@@ -40,11 +40,6 @@ export const MARQUEE_ITEMS = ["HTML5", "CSS3", "JAVASCRIPT", "LARAVEL", "MYSQL",
 
 export const SERVICES = [
   {
-    icon: "draw",
-    title: "UI/UX Design",
-    desc: "Crafting visually stunning interfaces with a focus on user psychology and conversion optimization.",
-  },
-  {
     icon: "code",
     title: "Frontend Dev",
     desc: "Developing lightning-fast, responsive web applications using the latest JavaScript frameworks.",
