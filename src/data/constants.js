@@ -14,7 +14,8 @@ export const PROJECTS = [
     tags: ["React", "JavaScript"],
     span: "col-4",
     aspect: "aspect-45",
-    src: "",
+    src: require("../ss1.png"),
+    link: "https://rating-film.vercel.app/",
   },
   {
     id: 3,
@@ -22,7 +23,8 @@ export const PROJECTS = [
     tags: ["Laravel", "React", "Inertia.js"],
     span: "col-4",
     aspect: "aspect-square",
-    src: "",
+    src: require("../ss2.png"),
+    link: "https://toko-thrift-reza.onrender.com/",
   },
   {
     id: 4,

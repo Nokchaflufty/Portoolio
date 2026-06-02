@@ -80,16 +80,21 @@ function ProjectCard({ project }) {
               ))}
             </div>
           </div>
-          <span
-            className="material-symbols-outlined"
-            style={{
-              color: "#d0bcff",
-              transform: hovered ? "translateX(8px)" : "translateX(0)",
-              transition: "transform 0.3s",
-            }}
-          >
-            north_east
-          </span>
+          {project.link && (
+            <a
+              href={project.link}
+              target="_blank"
+              rel="noreferrer"
+              style={{
+                color: "#d0bcff",
+                transform: hovered ? "translateX(8px)" : "translateX(0)",
+                transition: "transform 0.3s",
+                display: "flex",
+              }}
+            >
+              <span className="material-symbols-outlined">north_east</span>
+            </a>
+          )}
         </div>
       </div>
     </div>
