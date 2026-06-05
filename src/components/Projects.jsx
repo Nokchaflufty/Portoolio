@@ -6,7 +6,7 @@ import { useTranslation } from "../context/LanguageContext";
 function ProjectCard({ project }) {
   const { t } = useTranslation();
   const [hovered, setHovered] = useState(false);
-  const isLarge = project.span === "col-8";
+  const gridSpan = Number.parseInt(project.span?.split("-")[1] || "12", 10);
 
   const aspectPadding =
     project.aspect === "aspect-video" ? "56.25%" :
@@ -14,7 +14,7 @@ function ProjectCard({ project }) {
 
   return (
     <div
-      style={{ gridColumn: `span ${isLarge ? 8 : 4}`, cursor: "pointer" }}
+      style={{ gridColumn: `span ${gridSpan}`, cursor: "pointer" }}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
@@ -35,7 +35,7 @@ function ProjectCard({ project }) {
         <div style={{ position: "relative", paddingBottom: aspectPadding, overflow: "hidden", marginBottom: 32 }}>
           <img
             src={project.src}
-            alt={project.title}
+            alt={t(project.titleKey)}
             style={{
               position: "absolute",
               inset: 0,
@@ -70,7 +70,7 @@ function ProjectCard({ project }) {
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginTop: "auto" }}>
           <div>
             <h3 style={{ fontSize: 24, fontWeight: 500, lineHeight: 1.4, letterSpacing: "-0.01em", color: "#e5e2e1", marginBottom: 8 }}>
-              {project.title}
+              {t(project.titleKey)}
             </h3>
             <div style={{ display: "flex", gap: 12 }}>
               {project.tags.map((tag) => (

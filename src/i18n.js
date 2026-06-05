@@ -23,6 +23,9 @@ export const translations = {
       title: "Curated Digital Architecture",
       desc: "A showcase of projects that define modern utility and aesthetic excellence.",
       cta: "View Case Study",
+      webCilok: "Cilok Web",
+      rateFilm: "Movie Rating Web",
+      thriftStore: "Thrift Store Web",
     },
     services: {
       eyebrow: "EXPERTISES",
@@ -60,6 +63,9 @@ export const translations = {
       title: "Arsitektur Digital yang Terkurasi",
       desc: "Pameran proyek yang mendefinisikan utilitas modern dan keunggulan estetika.",
       cta: "Lihat Studi Kasus",
+      webCilok: "Web Cilok",
+      rateFilm: "Web Rate Film",
+      thriftStore: "Web Toko Thrift",
     },
     services: {
       eyebrow: "KEAHLIAN",
