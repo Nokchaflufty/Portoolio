@@ -26,14 +26,6 @@ export const PROJECTS = [
     src: require("../ss2.png"),
     link: "https://toko-thrift-reza.onrender.com/",
   },
-  {
-    id: 4,
-    title: "Manajemen Perpustakaan",
-    tags: ["Laravel", "PHP"],
-    span: "col-8",
-    aspect: "aspect-video",
-    src: "",
-  },
 ];
 
 export const SKILLS_TAGS = ["HTML5", "TailwindCSS", "JavaScript", "Laravel", "PHP", "Figma"];
