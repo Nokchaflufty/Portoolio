@@ -1,7 +1,6 @@
 import { useTranslation } from "../context/LanguageContext";
 
 export default function Footer() {
-  const links = ["Twitter", "LinkedIn", "GitHub", "Dribbble"];
   const { t } = useTranslation();
 
   return (
@@ -39,39 +38,6 @@ export default function Footer() {
           <p style={{ fontSize: 16, color: "rgba(203,195,215,0.6)" }}>
             {t("footer.copy")}
           </p>
-          <div style={{ display: "flex", gap: 24 }}>
-            {links.map((link) => {
-              const href =
-                link === "Twitter"
-                  ? "https://twitter.com"
-                  : link === "LinkedIn"
-                  ? "https://www.linkedin.com"
-                  : link === "GitHub"
-                  ? "https://github.com"
-                  : "https://dribbble.com";
-
-              return (
-                <a
-                  key={link}
-                  href={href}
-                style={{
-                  fontFamily: "'Geist Mono', monospace",
-                  fontSize: 12,
-                  fontWeight: 600,
-                  letterSpacing: "0.1em",
-                  color: "#cbc3d7",
-                  textDecoration: "none",
-                  textTransform: "uppercase",
-                  transition: "color 0.3s",
-                }}
-                onMouseEnter={(e) => (e.target.style.color = "white")}
-                  onMouseLeave={(e) => (e.target.style.color = "#cbc3d7")}
-                >
-                  {link}
-                </a>
-              );
-            })}
-          </div>
         </div>
       </div>
     </footer>

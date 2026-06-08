@@ -29,9 +29,9 @@ export const PROJECTS = [
   },
 ];
 
-export const SKILLS_TAGS = ["HTML5", "TailwindCSS", "JavaScript", "Laravel", "PHP", "Figma"];
+export const SKILLS_TAGS = ["HTML5", "TailwindCSS", "JavaScript", "Laravel", "PHP", "React"];
 
-export const MARQUEE_ITEMS = ["HTML5", "CSS3", "JAVASCRIPT", "LARAVEL", "MYSQL", "BOOTSTRAP", "FIGMA", "GITHUB"];
+export const MARQUEE_ITEMS = ["HTML5", "CSS3", "JAVASCRIPT", "LARAVEL", "MYSQL", "BOOTSTRAP", "REACT.JS", "GITHUB"];
 
 export const SERVICES = [
   {
@@ -57,10 +57,9 @@ export const SERVICES = [
 ];
 
 export const PROCESS = [
-  { num: "01", title: "RESEARCH",  desc: "Market analysis & user persona definition." },
+  { num: "01", title: "RESEARCH", desc: "Market analysis & user persona definition." },
   { num: "02", title: "WIREFRAME", desc: "Low-fidelity structural planning." },
-  { num: "03", title: "UI DESIGN", desc: "High-fidelity visual craftsmanship." },
-  { num: "04", title: "DEVELOP",   desc: "Clean, scalable engineering phase." },
-  { num: "05", title: "TESTING",   desc: "QA, performance, & device testing." },
-  { num: "06", title: "DEPLOY",    desc: "Going live & continuous monitoring." },
+  { num: "03", title: "DEVELOP", desc: "Writing clean, scalable code." },
+  { num: "04", title: "TESTING", desc: "QA, performance, & device testing." },
+  { num: "05", title: "DEPLOY", desc: "Going live & continuous monitoring." },
 ];
