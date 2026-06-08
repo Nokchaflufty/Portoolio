@@ -82,7 +82,7 @@ export default function Hero() {
               <span className="material-symbols-outlined" style={{ fontSize: 16 }}>arrow_forward</span>
             </a>
             <a
-              href="rezarochmadpratama@gmail.com"
+              href="mailto:rezarochmadpratama@gmail.com"
               style={{ padding: "16px 40px", color: "white", fontWeight: 600, textDecoration: "none", borderRadius: 2, background: "rgba(255,255,255,0.02)", backdropFilter: "blur(20px)", border: "1px solid rgba(255,255,255,0.08)", transition: "background 0.3s" }}
               onMouseEnter={(e) => (e.currentTarget.style.background = "rgba(255,255,255,0.1)")}
               onMouseLeave={(e) => (e.currentTarget.style.background = "rgba(255,255,255,0.02)")}
